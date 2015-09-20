@@ -1,0 +1,87 @@
+@background: #434c56;
+@foreground: #f6f3e8;
+#first-pane {background: #434c56 !important;}
+#second-pane {background: #434c56 !important;}
+#main-toolbar{background: #3C3F41 !important;}
+#sidebar{background: #3C3F41 !important;}
+.pane-header {background: #2E353C !important;}
+.CodeMirror, .CodeMirror-scroll {
+    background-color: @background;
+    color: @foreground;
+}
+.CodeMirror-focused .CodeMirror-activeline-background {
+    background: #525b65;
+}
+&.show-line-padding .CodeMirror-focused .CodeMirror-activeline-background {
+    box-shadow: inset 15px 0 0 0 #000;
+}
+.CodeMirror-focused .CodeMirror-activeline {
+    .CodeMirror-gutter-elt {
+        background: #525b65;
+        color: #fff;
+    }
+    .inline-widget .CodeMirror-gutter-elt {
+        color: #767676;
+    }
+}
+.cm-atom{color:#cc9495}
+.cm-attribute{color:#d6d6d6}
+.cm-string{color:#c3bca8}
+//.cm-def{color:#8cae7e;}
+.cm-def{color:#a2b59b;}
+.cm-hr {color: #d68686}
+.cm-number{color: #d68686}
+.cm-property {color: #d6d6d6}
+.cm-operator{color:#9F9D6D}
+.cm-variable-2{color:#969696}
+.cm-meta{color:#969696}
+.cm-variable, .cm-variable-3,.cm-bracket {color: @foreground;}
+.cm-comment {color: #969696}
+.cm-error, .cm-minus {color: #dc322f}
+.cm-header {color: #c39d9d}
+.cm-link {color: #b294c6; text-decoration: none;}
+.cm-rangeinfo {color: #6c71c4}
+.cm-keyword{color:#85b3cb;}
+.cm-builtin, .cm-quote {color: #a2b59b}
+.cm-qualifier{color:#c3b8ab}
+.cm-tag{color:#93a9b4}
+.CodeMirror {line-height: 1.6;}
+/* Extra CSS */
+.CodeMirror.find-highlighting div.CodeMirror-selected,
+.CodeMirror .CodeMirror.find-highlighting div.CodeMirror-selected {
+    background: #434c56;
+}
+.CodeMirror-cursor {
+    border-left: 1px solid #fff;
+}
+.CodeMirror-gutters {
+    background-color: @background;
+    border-right: none;
+}
+.CodeMirror-focused .CodeMirror-activeline .CodeMirror-gutter-elt {
+    color: #c0c0c0;
+}
+.CodeMirror .CodeMirror-selected {
+    background: #525b65;
+}
+.CodeMirror-focused .CodeMirror-selected {
+    background: #525b65;
+}
+.CodeMirror-matchingbracket, .CodeMirror-matchingtag {
+    /* Ensure visibility against gray inline editor background */
+    background-color: rgba(145, 149, 162, 0.65);
+    color: #6c1526 !important;
+	font-weight: bold;
+}
+.CodeMirror-overwrite .CodeMirror-cursor {
+    border-left: none !important;
+    border-bottom: 1px solid #fff;
+}
+/* Non-editor styling */
+#image-holder,
+#not-editor {
+    background-color: @background;
+}
+#image-holder {
+    color: @foreground;
+}

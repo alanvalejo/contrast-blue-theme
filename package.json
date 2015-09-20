@@ -1,0 +1,14 @@
+{
+    "name": "constrat-blue-theme",
+    "title": "constrat-blue-theme",
+    "description": "Constrat Blue Theme for Brackets",
+    "homepage": "https://github.com/alanvalejo/contrast-blue-theme",
+    "version": "1.0.0",
+    "author": "alan valejo <alanvalejo@gmail.com> ",
+    "license": "MIT",
+    "theme": {
+        "file": "style.less",
+        "dark": true
+    },
+    "keywords": ["theme"]
+}
