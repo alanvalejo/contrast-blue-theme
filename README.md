@@ -1,4 +1,4 @@
-Constrat Blue Theme for Brackets
+Contrast Blue Theme for Brackets
 =========
 
 ###### Python
