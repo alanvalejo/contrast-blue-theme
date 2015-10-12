@@ -1,9 +1,9 @@
 {
-    "name": "contrast-blue-theme",
-    "title": "contrast-blue-theme",
+    "name": "constrat-blue-theme",
+    "title": "Contrast blue theme",
     "description": "Contrast Blue Theme for Brackets",
     "homepage": "https://github.com/alanvalejo/contrast-blue-theme",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "author": "alan valejo <alanvalejo@gmail.com> ",
     "license": "MIT",
     "theme": {
